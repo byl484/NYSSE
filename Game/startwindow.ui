@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StartWindow</class>
+ <widget class="QMainWindow" name="StartWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>923</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Monospace</family>
+    <weight>50</weight>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="startGameButton">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>820</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Monospace</family>
+      <pointsize>15</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Start Game</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="difficultyLabel">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>820</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Monospace</family>
+      <pointsize>15</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>DifficultyLevel</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="decreaseDifficult">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>820</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Monospace</family>
+      <pointsize>15</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="increaseDifficult">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>820</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Monospace</family>
+      <pointsize>15</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>984</width>
+      <height>728</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../build-Nysse/Game/qmake_qmake_immediate.qrc">:/images/start_banner.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="nysseAdventureGameLabel">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>760</y>
+      <width>1024</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Monospace</family>
+      <pointsize>30</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Nysse Adventure Game</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1024</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="../../build-Nysse/Game/qmake_qmake_immediate.qrc"/>
+ </resources>
+ <connections/>
+</ui>
