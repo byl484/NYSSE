@@ -3,9 +3,9 @@ Contents of the Course repository were preamde by Tampere University course staf
 
 # Images
 
-Ingame image 1
+Gameplay image 1
 ![](ss1.png)
 
-Ingame image2
+Gameplay image2
 ![](ss2.png)
 
