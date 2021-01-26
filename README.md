@@ -6,6 +6,6 @@ Contents of the Course repository were preamde by Tampere University course staf
 Gameplay image 1
 ![](ss1.png)
 
-Gameplay image2
+Gameplay image 2
 ![](ss2.png)
 
